@@ -106,8 +106,74 @@
             bottom: 10px;
         }
 
-       
-        
+        @media (max-width: 480px) {
+            .task-input, .priority-select, .btn-add {
+                width: 90%;
+                font-size: 18px;
+                padding: 8px;
+            }
+
+            .task-card {
+                font-size: 18px;
+                margin: 8px;
+                padding: 8px;
+            }
+
+            .task-card-title {
+                font-size: 16px;
+            }
+
+            .task-card-priority {
+                font-size: 14px;
+                padding: 5px;
+            }
+        }
+
+        @media (min-width: 481px) and (max-width: 768px) {
+            .task-input, .priority-select, .btn-add {
+                width: 80%;
+                font-size: 18px;
+                padding: 10px;
+            }
+
+            .task-card {
+                font-size: 18px;
+                margin: 12px;
+                padding: 12px;
+            }
+
+            .task-card-title {
+                font-size: 18px;
+            }
+
+            .task-card-priority {
+                font-size: 16px;
+                padding: 6px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .task-input, .priority-select, .btn-add {
+                width: 300px;
+                font-size: 16px;
+                padding: 10px;
+            }
+
+            .task-card {
+                font-size: 20px;
+                margin: 12px;
+                padding: 12px;
+            }
+
+            .task-card-title {
+                font-size: 20px;
+            }
+
+            .task-card-priority {
+                font-size: 16px;
+                padding: 8px;
+            }
+        }
     </style>
 </head>
 <body>
